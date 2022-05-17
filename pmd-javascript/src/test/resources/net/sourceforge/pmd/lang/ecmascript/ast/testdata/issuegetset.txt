@@ -1,0 +1,16 @@
++- AstRoot
+   +- VariableDeclaration
+      +- VariableInitializer
+         +- Name
+         +- ObjectLiteral
+            +- ObjectProperty
+            |  +- Name
+            |  +- FunctionNode
+            |     +- Name
+            |     +- Block
+            +- ObjectProperty
+               +- Name
+               +- FunctionNode
+                  +- Block
+                     +- ReturnStatement
+                        +- Name

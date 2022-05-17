@@ -46,4 +46,16 @@ public class JsTreeDumpTest extends BaseTreeDumpTest {
         // https://github.com/pmd/pmd/issues/3948
         doTest("issue3948");
     }
+
+    @Test
+    public void issuegetset() {
+        // https://github.com/pmd/pmd/issues/3948
+        doTest("issuegetset");
+    }
+
+    @Test
+    public void issuedot() {
+        // https://github.com/pmd/pmd/issues/3948
+        doTest("issuedot");
+    }
 }

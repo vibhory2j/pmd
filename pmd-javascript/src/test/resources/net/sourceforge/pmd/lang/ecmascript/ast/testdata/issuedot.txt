@@ -1,0 +1,20 @@
++- AstRoot
+   +- ExpressionStatement
+   |  +- XmlMemberGet
+   |     +- Name
+   |     +- XmlElemRef
+   |        +- Name
+   |        +- StringLiteral
+   +- ExpressionStatement
+      +- FunctionCall
+         +- PropertyGet
+            +- XmlMemberGet
+            |  +- XmlMemberGet
+            |  |  +- Name
+            |  |  +- XmlElemRef
+            |  |     +- Name
+            |  |     +- StringLiteral
+            |  +- XmlElemRef
+            |     +- Name
+            |     +- StringLiteral
+            +- Name
